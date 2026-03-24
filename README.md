@@ -15,18 +15,18 @@ This repository contains a Jupyter Notebook (`CZI_to_TIFF_Converter.ipynb`) impl
 ## Prerequisites
 
 - Python 3.13.x (noted by the notebook as required)
-- `pip`
+- `pip, pylibCZIrw, matplotlib, tifffile, jupyter, tkinter`
 
 ## Usage
 
-1. Open `CZI_to_TIFF_Converter.ipynb` in Jupyter Notebook or JupyterLab.
-2. Run cells in order.
-3. Select mode:
+1. Open `CZI_to_TIFF_Converter.ipynb` - Must be run in an environemnt with display output for file dialogs (i.e locally with a .venv)
+3. Run cells in order.
+4. Select mode:
    - Directory Batch Mode
    - Single File Mode
-4. For Batch Mode, select input / output folders and naming options.
-5. In Single File Mode, choose an input file and output TIFF path.
-6. Run conversion cell.
+5. For Batch Mode, select input / output folders and naming options.
+6. In Single File Mode, choose an input file and output TIFF path.
+7. Run conversion cell.
 
 ### Output behavior
 - Batch mode:
