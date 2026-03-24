@@ -1,0 +1,5 @@
+Exports
+.venv3.13
+*.czi
+*.tiff
+pylibCZIrw_4_1_0.ipynb
